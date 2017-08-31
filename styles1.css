@@ -1,0 +1,227 @@
+.hidetemp{
+	visibility:hidden;
+}
+
+body {
+	background:#fff;
+	margin:0;
+	padding:0;
+	font-family:arial, helvetica, sans-serif;
+	font-size:16px;
+}
+
+input[type="submit"], input[type="button"], input[type="reset"], .button, button {
+    /*background: #878787 none repeat scroll 0 0;
+    color: #ffffff;*/
+	background: #ffffff none repeat scroll 0 0;
+    color: #555555;
+    border: solid 2px #b50f1b;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+	font-size: 15px;
+	height: 28px;
+    margin: 0 5px;
+    padding: 0 6px;
+}
+
+input[type="submit"]:hover, input[type="button"]:hover, input[type="reset"]:hover, .button:hover, button:hover {
+    background: #b50f1b none repeat scroll 0 0;
+    color: #ffffff;
+	border: solid 1px #878787;
+	margin: 1px 6px 0;
+    text-decoration: none;
+	height: 26px;
+}
+
+textarea, input[type="text"], input[type="search"], input[type="password"], fieldset {
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    padding: 3px;
+	height: 16px;
+	margin-top: -1px;
+}
+
+*, *:hover {
+    transition: color 300ms ease 0s, background-color 300ms ease 0s;
+}
+
+table, th, td {
+    border-collapse: collapse;
+	border-bottom-style:solid;
+	border-color:#ebebeb;
+}
+td {
+    text-align: left;
+}
+a {
+    text-decoration: none ;
+	color : black
+}
+
+.logo_export { float: left; margin-left: 12%; top: 0; width: 221px; height: 121px; color: #ffffff; position: relative; z-index: 1;}
+.logo { background:url(bilder/logo.png) no-repeat; float: left; margin-left: 12%; top: 0; width: 221px; height: 121px; color: #ffffff; position: relative; z-index: 1;}
+.kontakt_export { font-size:12px; text-align: center; width: 100%; position: relative; margin-top: 113px; color: #ebbbbb;margin-left:5%}
+.kontakt { font-size:12px; text-align: center; width: 100%; position: absolute; margin-top: 113px; color: #ebbbbb;}
+.kontakt:hover { color: #ffffff; }
+
+.TelefonSuche {
+	position: absolute; 
+	top: 20px; 
+	right: 12%; 
+	color: #ffffff; 
+	font-weight: bold; 
+	text-align: left;
+}
+
+.TelefonSucheBar li {
+	font-size:12px;
+	font-weight:600;
+	cursor:pointer;
+}
+
+.TelefonSucheBar li:hover {
+	background-color:#dcdcdc;
+}
+
+.bar {
+	background-color:none;
+}
+
+.bar:hover {
+	background-color:#b83a45;
+}
+
+.bar2 {
+	background-color:none;
+}
+
+.bar2:hover {
+	background-color:#dcdcdc;
+}
+
+.abteilung {
+	font-size: 17px; 
+	font-weight:600;
+	background: url(bilder/box1.png) #e21b26 no-repeat top left; 
+	color: #ffffff; 
+	padding: 8px 6px 6px 10px;
+	/*CLEAR: both;	*/
+	text-align: left;
+	text-decoration:none;
+}
+
+.abteilung2 {
+	background: url(bilder/box2.png) #ebebeb repeat-x bottom; 
+	font-size:15px;
+	font-weight:600;
+	padding:8px 15px;
+	/*color:#b83a45;*/
+	color:#a10a1f;
+	text-decoration:none;
+}
+
+.GrayTable {
+	border: solid;
+	border-color:#ebebeb;
+	background:#B7B0B1;
+	width: 100%;
+}
+
+.zeileContent {
+	font-size:15px; 
+	font-weight:600;
+	padding-right: 10px;
+}
+
+.zeileContent div {
+	display: table;
+}
+
+.zeileRohrpost {
+	font-size:15px; 
+	font-weight:600;
+	color:#F5A911;
+	padding-right: 10px;
+}
+
+.zeileRohrpost a {
+	color:#FFFFFF;
+}
+
+.rowEmail {
+	width:20px;
+	float:left;
+	margin-left:9px;
+}
+
+.row2 {
+	padding-left: 30px;
+}
+
+.EDVlogin {
+	padding-left: 50px;
+	float: right;
+}
+
+.Drucken{
+	float:right;
+	padding-bottom:10px;
+	width:50px;
+}
+
+.Drucken a{
+	color:#ebebeb
+}
+
+.EDVlogin a {
+	color:#b83a45;
+}
+
+.noWrap {
+	white-space: nowrap;
+}
+
+.hover {background-color:#b83a45}
+.yeshover {background-color:#dcdcdc}
+.nohover {border-bottom: none}
+.telefon {padding-top:100px ; height: 20px;text-align: center; color:white }
+.select-bereich { display:inline ;font-size:11px; height: 20px; border-width:2px ;border-style: double;text-align: left; margin-top: 1px; width: 230px; background-color: #ebebeb; cursor: pointer;padding-left:5px; padding-top:2px;padding-bottom:1px}
+
+/* Backend */
+
+.menu {
+	background:url(bilder/box2.png);
+	font-size:14px;
+	font-weight:600;
+	padding:5px;
+	color:#b83a45;
+	padding-left:12px;
+	cursor:pointer;
+}
+
+.edit_log {
+	width: 100%;
+}
+
+.edit_log a {
+	color: #e21b26;
+	font-weight: bold;
+}
+
+.edit_log td, .content-main td {
+	padding: 5px 10px;
+}
+
+input:required:invalid, input:focus:invalid {
+    background-image: url(bilder/downhand.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+  }
+  
+input:required:valid {
+    background-image: url(bilder/Uphand.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+  }
